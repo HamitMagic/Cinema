@@ -1,0 +1,53 @@
+#special_btn {
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    
+}
+
+.special_btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.special_btn a {
+    color: white;
+}
+
+.special_btn .active {
+    background-color: rgb(93, 93, 225);
+}
+
+.special_btn .inactive {
+    background-color: rgb(141, 141, 231);
+    cursor: default;
+    pointer-events: none;
+}
+
+.sortBy {
+    margin-top: 16px;
+}
+
+.filters {
+    display: flex;
+    flex-flow: wrap column;
+    border: 1px solid;
+    padding: 8px 20px;
+    box-shadow: 10px 3px 10px gray;
+    min-width: 180px;
+}
+.filters a {
+    align-self: center;
+}
+
+.filters p {
+    text-align: center;
+}
+
+.filters_checkBox {
+    margin: 16px 0;
+}
+
+form select {
+    width: 100%;
+}
