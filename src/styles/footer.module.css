@@ -1,0 +1,7 @@
+.footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 4px 40px 4px 40px;
+}

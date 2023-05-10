@@ -1,0 +1,46 @@
+.film_container {
+    display: flex;
+    flex-flow: row nowrap;
+    box-shadow: 10px 5px 5px gray;
+    width: 380px;
+    height: fit-content;
+
+}
+
+.film_container img {
+    width: 180px;
+    height: 280px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.details_header img {
+    height: 16px;
+    width: 20px;
+    padding-top: 4px;
+}
+
+.details_header {
+    display: flex;
+    flex-flow: nowrap row;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.details_link {
+    border-top: 1px rgb(49, 49, 49) solid;
+    padding: 0 20px;
+    text-align: center;
+    margin: 8px 0;
+    text-decoration: none;
+}
+
+.details_title {
+    padding: 0 20px;
+
+}
